@@ -14,7 +14,7 @@ We used that model in featureless to train on the tamil dataset and detect hate 
 
 As performance was not good, we used SBert to provide sentence embeddings and then used TextGCN to train on the embeddings.
 
-#Folder Structure
+## Folder Structure
 
 ```
 .
