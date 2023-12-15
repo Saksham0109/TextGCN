@@ -35,7 +35,7 @@ As performance was not good, we used SBert to provide sentence embeddings and th
 │   ├── vocab.csv : Vocabulary of the dataset
 
 
-├── embeddding : Contains the embedding obtained before the final layer of the model
+├── embedding : Contains the embedding obtained before the final layer of the model
 │   ├── Train_embedding.csv
 │   ├── Dev_embedding.csv
 │   ├── Test_embedding.csv
@@ -52,6 +52,23 @@ As performance was not good, we used SBert to provide sentence embeddings and th
 │   ├── train.ipynb : Code for training the model
 
 ```
+
+## Model Architecture and Hyperparameters
+
+First layer turn 768 dimensional SBert embeddings to 64 dimensional embeddings.
+
+Second layer turns 64 dimensional embeddings to 16 dimensional embeddings.
+
+Third layer turns 16 dimensional embeddings to 2 dimensional embeddings.
+
+Optimizer : Adam
+
+Loss : Cross Entropy
+
+Epoch : 36
+
+Hyperparameter:learning rate 0.01 and dropout 0.5
+
 
 ## Results
 
