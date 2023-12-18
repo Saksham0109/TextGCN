@@ -53,30 +53,6 @@ As performance was not good, we used SBert to provide sentence embeddings and th
 
 ```
 
-## Model Architecture and Hyperparameters
-
-First layer turn 768 dimensional SBert embeddings to 64 dimensional embeddings.
-
-Second layer turns 64 dimensional embeddings to 16 dimensional embeddings.
-
-Third layer turns 16 dimensional embeddings to 2 dimensional embeddings.
-
-Optimizer : Adam
-
-Loss : Cross Entropy
-
-Epoch : 36
-
-Hyperparameter:learning rate 0.01 and dropout 0.5
-
-
-## Results
-
-| Model | Accuracy | F1 Score |
-| --- | --- | --- |
-| TextGCN | 0.69 | 0.68 |
-| TextGCN with SBert Embeddings | 0.78 | 0.76 |
-
 
 
 
