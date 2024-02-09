@@ -1,7 +1,5 @@
 # TextGCN
 
-This project was done as part of Associated Shared Task in the FOURTH WORKSHOP ON LANGUAGE TECHNOLOGY FOR EQUALITY, DIVERSITY, INCLUSION (LT-EDI-2024) AT EACL 2024
-
 ## Task
 
 Caste/Immigration Hate Speech Detection in Tamil Text
